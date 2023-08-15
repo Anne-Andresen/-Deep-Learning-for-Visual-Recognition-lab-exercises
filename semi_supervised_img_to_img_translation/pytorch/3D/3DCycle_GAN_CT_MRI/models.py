@@ -8,7 +8,7 @@ from tensorflow.keras.layers import *
 from tensorflow.keras.models import *
 from tensorflow.keras.activations import *
 
-# reflection padding taken from: https://github.com/fastai/courses/blob/master/deeplearning2/neural-style.ipynb
+#
 class ReflectionPadding3D(Layer):
     def __init__(self, padding=(1, 1, 1), **kwargs):
         self.padding = tuple(padding)
